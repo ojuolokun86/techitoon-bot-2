@@ -7,7 +7,6 @@ const { resetOldWarnings } = require('../utils/scheduler');
 const path = require('path');
 const ffmpeg = require('fluent-ffmpeg');
 const ffmpegPath = require('@ffmpeg-installer/ffmpeg').path;
-const crypto = require('crypto-browserify'); // Use crypto-browserify as a polyfill
 
 ffmpeg.setFfmpegPath(ffmpegPath);
 
